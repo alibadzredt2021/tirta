@@ -105,48 +105,6 @@
             </div>
         </div>
     </section>
-
-    <section class="ftco-section ftco-about ftco-no-pt ftco-no-pb" id="groom-bride-section">
-        <div class="container">
-            <div class="row d-flex">
-                <div class="col-md-6 d-flex">
-                    <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg-adam.jpg);">
-                    </div>
-                </div>
-                <div class="col-md-6 py-md-3 text">
-                    <div class="row justify-content-start">
-                        <div class="col-md-12 ftco-animate p-4 p-lg-5 text-center">
-                            <span class="icon flaticon-rose-variant-outline-with-vines"></span>
-                            <span>We invite you to celebrate</span>
-                            <h3 class="mb-4">The wedding day of</h3>
-
-                            <h2 class="mb-4">Adam <span>&amp;</span> Dini</h2>
-                            <span>Which is celebration on</span>
-                            <p class="time mb-4"><span>12 | 12 | 2021</span></p>
-
-                            <p class="text-primary mb-0"><span style="font-weight: 600">Akad starting at 08:00</span>, in the morning</p>
-                            <p class="mb-5 text-primary"><span style="font-weight: 600">Reception continue at 15:00</span>, in the afternoon</p>
-
-                            <a href="https://maps.app.goo.gl/GBH3rW8yW55GgEtx9" class="mr-3" target="_blank">
-                                <div class="d-flex flex-row align-items-center mb-4">
-                                    <img src="images/code.png" class="img-fluid ml-3 mr-4" style="border: 1px solid rgba(0, 0, 0, 0.1); max-width: 120px; opacity: .9" alt="QR Code">
-                                    <p class="text-left text-dark" style="line-height: 1.3">
-                                        <strong>Jl. Mayjen Sutoyo No.27, Karanganyar, Kec. Subang, Kabupaten Subang, Jawa Barat 41211</strong>
-                                    </p>
-                                </div>
-                            </a>
-
-                            <p class="mb-0 small" style="line-height: 1.3">
-                                Together with our families,<br>
-                                request the honor of your presence of our marriage
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="ftco-section bg-section">
         <div class="overlay-top" style="background-image: url(images/top-bg.jpg);"></div>
         <div class="overlay-bottom" style="background-image: url(images/bottom-bg.jpg);"></div>
@@ -189,7 +147,49 @@
                 </div>
             </div>
         </div>
+    </section>                            
+    <section class="ftco-section ftco-about ftco-no-pt ftco-no-pb" id="groom-bride-section">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-6 d-flex">
+                    <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg-adam.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-6 py-md-3 text">
+                    <div class="row justify-content-start">
+                        <div class="col-md-12 ftco-animate p-4 p-lg-5 text-center">
+                            <span class="icon flaticon-rose-variant-outline-with-vines"></span>
+                            <span>We invite you to celebrate</span>
+                            <h3 class="mb-4">The wedding day of</h3>
+
+                            <h2 class="mb-4">Adam <span>&amp;</span> Dini</h2>
+                            <span>Which is celebration on</span>
+                            <p class="time mb-4"><span>12 | 12 | 2021</span></p>
+
+                            <p class="text-primary mb-0"><span style="font-weight: 600">Akad starting at 08:00</span>, in the morning</p>
+                            <p class="mb-5 text-primary"><span style="font-weight: 600">Reception continue at 15:00</span>, in the afternoon</p>
+
+                            <a href="https://maps.app.goo.gl/GBH3rW8yW55GgEtx9" class="mr-3" target="_blank">
+                                <div class="d-flex flex-row align-items-center mb-4">
+                                    <img src="images/code.png" class="img-fluid ml-3 mr-4" style="border: 1px solid rgba(0, 0, 0, 0.1); max-width: 120px; opacity: .9" alt="QR Code">
+                                    <p class="text-left text-dark" style="line-height: 1.3">
+                                        <strong>Jl. Mayjen Sutoyo No.27, Karanganyar, Kec. Subang, Kabupaten Subang, Jawa Barat 41211</strong>
+                                    </p>
+                                </div>
+                            </a>
+
+                            <p class="mb-0 small" style="line-height: 1.3">
+                                Together with our families,<br>
+                                request the honor of your presence of our marriage
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    
 
     <section class="ftco-section bg-light" id="greeting-section">
         <div class="container">
