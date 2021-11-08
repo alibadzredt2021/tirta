@@ -173,7 +173,7 @@
 
                             <a href="https://maps.app.goo.gl/GBH3rW8yW55GgEtx9" class="mr-3" target="_blank">
                                 <div class="d-flex flex-row align-items-center mb-4">
-                                    <img src="images/code.png" class="img-fluid ml-3 mr-4" style="border: 1px solid rgba(0, 0, 0, 0.1); max-width: 120px; opacity: .9" alt="QR Code">
+                                    <img src="{{ url('images/code.png') }}" class="img-fluid ml-3 mr-4" style="border: 1px solid rgba(0, 0, 0, 0.1); max-width: 120px; opacity: .9" alt="QR Code">
                                     <p class="text-left text-dark" style="line-height: 1.3">
                                         <strong>Jl. Mayjen Sutoyo No.27, Karanganyar, Kec. Subang, Kabupaten Subang, Jawa Barat 41211</strong>
                                     </p>
