@@ -147,7 +147,9 @@
                 </div>
             </div>
         </div>
-    </section>                            
+    </section>                
+    <br>
+    <br>            
     <section class="ftco-section ftco-about ftco-no-pt ftco-no-pb" id="groom-bride-section">
         <div class="container">
             <div class="row d-flex">
