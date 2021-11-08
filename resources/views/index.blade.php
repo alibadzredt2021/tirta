@@ -564,8 +564,7 @@
         </div>
     </section> -->
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8397106542375!2d112.70488811427943!3d-7.259076294760213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7ffc81277be33%3A0x4b0d665a01a19d14!2sAngga%20%26%20Diana%20Wedding!5e0!3m2!1sen!2sid!4v1577010160594!5m2!1sen!2sid" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.713451502844!2d107.7627072148197!3d-6.557811165931288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e693b7e0b9f3013%3A0x94615d8876de1f8b!2sKodim%200605%20Subang!5e0!3m2!1sid!2sid!4v1636387741251!5m2!1sid!2sid"width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     <footer class="ftco-footer ftco-section">
         <div class="overlay"></div>
         <div class="container">

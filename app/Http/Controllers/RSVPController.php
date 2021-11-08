@@ -30,7 +30,6 @@ class RSVPController extends Controller
 
         if ($rsvp->save()) {
             return response()->json([
-                'status' => 1,
                 'message' => 'RSVP successfully create'
             ]);
         } else {
