@@ -15,4 +15,4 @@ $router->get('/', function () use ($router) {
     return view('index');
 });
 
-$router->post('rsvp', ['uses' => 'RSVPController@store']);
+$router->post('/', ['uses' => 'RSVPController@store']);

@@ -5,8 +5,7 @@
     <title>Adam & Dini's Wedding on 02 February 2021</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keyword" content="wedding, engagement, celebration, special day, angga ari wijaya, diana eka wulandari">
-    <meta name="description" content="Special day in our history to be together and start new life">
+   
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -15,6 +14,7 @@
 
     <link rel="icon" href="<?= url('images/icon.png') ?>" type="image/x-icon">
     <link href="{{ url('/css/app.css') }}" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <style>
     /* The Modal (background) */
 .modal {
@@ -95,23 +95,23 @@
                             The greatest moment in history of our life begin in:
                         </small>
                         <div id="timer" class="d-flex">
-                            <div class="time" id="days">0<span>Hari</span></div>
-                            <div class="time pl-3" id="hours">0<span>Jam</span></div>
-                            <div class="time pl-3" id="minutes">0<span>Menit</span></div>
-                            <div class="time pl-3" id="seconds">0<span>Detik</span></div>
+                            <div class="time" id="days">0<span>days</span></div>
+                            <div class="time pl-3" id="hours">0<span>hours</span></div>
+                            <div class="time pl-3" id="minutes">0<span>minutes</span></div>
+                            <div class="time pl-3" id="seconds">0<span>seconds</span></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="ftco-section bg-section">
-        <div class="overlay-top" style="background-image: url(images/top-bg.jpg);"></div>
-        <div class="overlay-bottom" style="background-image: url(images/bottom-bg.jpg);"></div>
+    <section class="ftco-section bg-section" style="background-image: url(images/back.jpg);">
+        <!-- <div class="overlay-top" style="background-image: url(images/top-bg.jpg);"></div>
+        <div class="overlay-bottom" style="background-image: url(images/bottom-bg.jpg);"></div> -->
         <div class="container">
             <div class="row justify-content-center pb-5">
                 <div class="col-md-12 text-center heading-section ftco-animate">
-                    <h2 class="mb-3">Bride &amp; Groom</h2>
+                    <h2 class="mb-3 text-dark">Bride &amp; Groom</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -121,7 +121,7 @@
                             <div class="bride-groom ftco-animate">
                                 <div class="img" style="background-image: url(images/adam1.jpg);"></div>
                                 <div class="text mt-4 px-4">
-                                    <h2 class="mb-0 text-primary">Adam Tirtano, S.Ars.</h2>
+                                    <h2 class="mb-0 text-dark">Adam Tirtano, S.Ars.</h2>
                                     <p class="p-md-3">
                                     Putra dari
                                     Bpk. Drs. Wahyudi
@@ -132,9 +132,9 @@
                         </div>
                         <div class="col-md-6 text-center d-flex align-items-stretch">
                             <div class="bride-groom ftco-animate">
-                                <div class="img" style="background-image: url(images/dini2.jpg);"></div>
+                                <div class="img" style="background-image: url(images/dini.jpg);"></div>
                                 <div class="text mt-4 px-4">
-                                    <h2 class="mb-0 text-primary">Dini Astuti, A.Md.Keb.</h2>
+                                    <h2 class="mb-0 text-dark">Dini Astuti, A.Md.Keb.</h2>
                                     <p class="p-md-3">
                                     Putri dari
                                     Bpk. Hendra Budiman, S.H.I., MMPd
@@ -147,10 +147,8 @@
                 </div>
             </div>
         </div>
-    </section>                
-    <br>
-    <br>            
-    <section class="ftco-section ftco-about ftco-no-pt ftco-no-pb" id="groom-bride-section">
+    </section>             
+    <section class="ftco-section ftco-about ftco-no-pt ftco-no-pb" id="groom-bride-section" style="background-image: url(images/back.jpg);">
         <div class="container">
             <div class="row d-flex">
                 <div class="col-md-6 d-flex">
@@ -162,20 +160,24 @@
                         <div class="col-md-12 ftco-animate p-4 p-lg-5 text-center">
                             <span class="icon flaticon-rose-variant-outline-with-vines"></span>
                             <span>We invite you to celebrate</span>
-                            <h3 class="mb-4">The wedding day of</h3>
+                            <br>
+                            <font class="text-dark" face="CommercialScript BTI" size="3">The wedding day of </font> <br>
 
-                            <h2 class="mb-4">Adam <span>&amp;</span> Dini</h2>
+                            <font class="text-dark" face="Edwardian Script ITC" size="60"> Adam &amp; Dini </font> <br>
                             <span>Which is celebration on</span>
                             <p class="time mb-4"><span>12 | 12 | 2021</span></p>
 
-                            <p class="text-primary mb-0"><span style="font-weight: 600">Akad starting at 08:00</span>, in the morning</p>
-                            <p class="mb-5 text-primary"><span style="font-weight: 600">Reception continue at 15:00</span>, in the afternoon</p>
+                            <p class="text-dark mb-0"><span style="font-weight: 600">Akad starting at 08:00 - 08:45 WIB</span>, in the morning</p>
+                            <p class="mb-5 text-dark"><span style="font-weight: 600">Reception continue at 11:00 - 15:00 WIB</span>, in the afternoon</p>
 
                             <a href="https://maps.app.goo.gl/GBH3rW8yW55GgEtx9" class="mr-3" target="_blank">
                                 <div class="d-flex flex-row align-items-center mb-4">
                                     <img src="{{ url('images/code.png') }}" class="img-fluid ml-3 mr-4" style="border: 1px solid rgba(0, 0, 0, 0.1); max-width: 120px; opacity: .9" alt="QR Code">
+                                    
                                     <p class="text-left text-dark" style="line-height: 1.3">
-                                        <strong>Jl. Mayjen Sutoyo No.27, Karanganyar, Kec. Subang, Kabupaten Subang, Jawa Barat 41211</strong>
+                                    
+                                        <span class='center'>Location :</span> <br>
+                                        <strong>Gedung KODIM 0605 Subang</strong>
                                     </p>
                                 </div>
                             </a>
@@ -378,7 +380,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-7">
-                    <form action="/rsvp" method="post" class="rsvp-form ftco-animate">
+                    <form action="" method="post" class="rsvp-form ftco-animate">
                         <div class="alert alert-success alert-dismissible mb-4" role="alert" style="display: none">
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
@@ -663,7 +665,7 @@
         </svg>
     </div>
 
-    <script src="{{ url('/js/app.js') }}"></script>
+    <script  type="text/javascript" src="{{ url('js/app.js') }}"></script>
     <script>
         var modal = document.getElementById("myModal");
 
@@ -700,6 +702,7 @@ window.onclick = function(event) {
 }
 
     </script>
+    
 </body>
 
 </html>

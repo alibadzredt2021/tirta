@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use SweetAlert;
 
 use App\RSVP;
 use Illuminate\Http\Request;
@@ -29,9 +30,7 @@ class RSVPController extends Controller
         $rsvp->fill($request->all());
 
         if ($rsvp->save()) {
-            return response()->json([
-                'message' => 'RSVP successfully create'
-            ]);
+            SweetAlert::message('Robots are working!');
         } else {
             return response()->json([
                 'status' => 0,
